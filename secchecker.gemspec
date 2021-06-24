@@ -6,13 +6,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["src"]
   spec.email         = ["src@srcw.net"]
 
-  spec.summary       = %q{secchecker.}
-  spec.description   = %q{secchecker.}
-  spec.homepage      = "http://srcw.net"
+  spec.summary       = %q{Check passwords and other sensitive information.}
+  spec.description   = %q{Check passwords and other sensitive information.}
+  spec.homepage      = "https://github.com/src256/secchecker"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
   spec.metadata["changelog_uri"] = spec.homepage
