@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "secchecker"
+
+Secchecker::Command.run(ARGV)
+
