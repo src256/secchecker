@@ -121,9 +121,12 @@ module Secchecker
 
     private
     def git_repository?(dir)
-      repodir = File.join(dir, ".git")
-      puts repodir
-      FileTest.directory?(repodir)
+      system('git rev-parse')
+#      r = `git rev-parse --is-inside-work-tree`
+#      r =~ 'true'
+#      repodir = File.join(dir, ".git")
+#      puts repodir
+#      FileTest.directory?(repodir)
     end
     
     def ls_files(dir)
